@@ -53,9 +53,11 @@ nav a {
   background: #fcf7d6;
 }
 
-.section-intro,
-.section-produits div {
-  color: black;
+.produit-container {
+  text-align: left;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 
 .cta-container {
@@ -75,4 +77,9 @@ nav a {
 
 h1 img {
   max-width: 100%;
+}
+
+.section-intro,
+.section-produits div {
+  color: black;
 }
