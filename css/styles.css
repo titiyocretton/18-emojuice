@@ -77,7 +77,8 @@ nav a {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 35px;
 }
 
 .section-produits img {
@@ -91,4 +92,12 @@ h1 img {
 .section-intro,
 .section-produits div {
   color: black;
+}
+
+.section-intro {
+  padding: 90px 65px;
+}
+
+h2 {
+  font-family: 'Maven Pro', sans-serif;
 }
