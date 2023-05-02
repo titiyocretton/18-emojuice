@@ -96,6 +96,7 @@ h1 img {
   text-align: left;
   margin-top: 40px;
   border-radius: 15px;
+  box-shadow: 0 0 1em #00000066;
 }
 
 .section-intro {
@@ -119,4 +120,13 @@ h3 {
   font-family: 'Maven Pro', sans-serif;
   font-weight: 800;
   font-size: 14px;
+}
+
+.section-contact {
+  padding-top: 20px;
+}
+
+footer {
+  padding: 55px 65px;
+  font-size: 12px;
 }
