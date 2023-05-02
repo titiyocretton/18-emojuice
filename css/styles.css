@@ -9,7 +9,7 @@ body {
 
 img {
   display: block;
-  max-width: 10%;
+  max-width: 30px;
 }
 
 header {
@@ -44,6 +44,7 @@ nav a {
 .section-produits {
   background: #7db96f;
   color: #fff;
+  padding: 40px 25px;
 }
 
 .fraise {
@@ -63,10 +64,10 @@ nav a {
 }
 
 .produit-container {
-  text-align: left;
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .cta-container {
@@ -82,22 +83,40 @@ nav a {
 }
 
 .section-produits img {
-  max-width: 20%;
+  max-width: 80px;
 }
 
 h1 img {
   max-width: 100%;
 }
 
-.section-intro,
-.section-produits div {
+.produit {
   color: black;
+  padding: 5px 40px 40px 40px;
+  text-align: left;
+  margin-top: 40px;
+  border-radius: 15px;
 }
 
 .section-intro {
   padding: 90px 65px;
+  color: black;
 }
 
 h2 {
   font-family: 'Maven Pro', sans-serif;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: 'Sriracha', cursive;
+  font-size: 30px;
+  margin-bottom: -20px;
+}
+
+.section-produits a {
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
 }
