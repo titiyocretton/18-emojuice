@@ -1,7 +1,8 @@
 body {
   max-width: 380px;
   margin: auto;
-  background: #ddd;
+  background: #fff;
+  color: #7db96f;
 }
 
 img {
@@ -10,5 +11,45 @@ img {
 }
 
 header {
-  color: #7db96f;
+  background-image: url(../img/background.png);
+}
+
+.box-title {
+  background: rgba(255, 255, 255, 0.900);
+}
+
+nav a {
+  background: #7db96f;
+  color: #fff;
+  text-decoration: none;
+}
+
+.light-cta {
+  background: #fff;
+}
+
+.section-produits {
+  background: #7db96f;
+  color: #fff;
+}
+
+.fraise {
+  background: #e2a2b1;
+}
+
+.cafe {
+  background: #cdc4b0;
+}
+
+.kiwi {
+  background: #d0f1ae;
+}
+
+.banane {
+  background: #fcf7d6;
+}
+
+.section-intro,
+.section-produits div {
+  color: black;
 }
