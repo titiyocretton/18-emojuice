@@ -12,16 +12,19 @@ img {
 
 header {
   background-image: url(../img/background.png);
+  padding: 30px;
 }
 
 .box-title {
   background: rgba(255, 255, 255, 0.900);
+  
 }
 
 nav a {
   background: #7db96f;
   color: #fff;
   text-decoration: none;
+  margin-top: 15px;
 }
 
 .light-cta {
