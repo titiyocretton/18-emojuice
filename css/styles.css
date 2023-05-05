@@ -16,6 +16,10 @@ h1 img {
   max-width: 100%;
 }
 
+.section-produits img {
+  max-width: 80px;
+}
+
 h2 {
   font-family: 'Maven Pro', sans-serif;
   font-size: 26px;
@@ -26,10 +30,6 @@ h3 {
   font-size: 30px;
   margin: 0;
   font-weight: 400;
-}
-
-.section-produits img {
-  max-width: 80px;
 }
 
 header {
@@ -67,6 +67,11 @@ nav a {
   align-items: center;
 }
 
+.section-intro {
+  padding: 90px 65px;
+  color: black;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -77,6 +82,18 @@ nav a {
   background: #7db96f;
   color: #fff;
   padding: 40px 25px;
+}
+
+.section-produits p {
+  margin: 0;
+  opacity: 0.5;
+}
+
+.section-produits a {
+  color: black;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 800;
+  font-size: 14px;
 }
 
 .fraise {
@@ -111,18 +128,6 @@ nav a {
   box-shadow: 0 0 1em #00000066;
 }
 
-.section-intro {
-  padding: 90px 65px;
-  color: black;
-}
-
-.section-produits a {
-  color: black;
-  font-family: 'Maven Pro', sans-serif;
-  font-weight: 800;
-  font-size: 14px;
-}
-
 .section-contact {
   padding-top: 20px;
 }
@@ -130,9 +135,4 @@ nav a {
 footer {
   padding: 55px 65px;
   font-size: 12px;
-}
-
-.section-produits p {
-  margin: 0;
-  opacity: 0.5;
 }
