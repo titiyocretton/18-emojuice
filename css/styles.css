@@ -24,7 +24,7 @@ h2 {
 h3 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
-  margin-bottom: -20px;
+  margin: 0;
   font-weight: 400;
 }
 
@@ -104,7 +104,7 @@ nav a {
 
 .produit {
   color: black;
-  padding: 5px 40px 40px 40px;
+  padding: 30px 40px 30px 40px;
   text-align: left;
   margin-top: 40px;
   border-radius: 15px;
@@ -130,4 +130,9 @@ nav a {
 footer {
   padding: 55px 65px;
   font-size: 12px;
+}
+
+.section-produits p {
+  margin: 0;
+  opacity: 0.5;
 }
